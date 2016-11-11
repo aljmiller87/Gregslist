@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	background-color: gray;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: helvetica;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+header span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav {
+	position: absolute;
+	right: 100px;
+
+}
+
+nav a {
+	color: purple;
+	display: inline-block;
+}
+
+nav a:link {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+
+main {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 80%;
+	min-height: 600px;
+	
+}
+
+
+.navigation-container {
+	margin-top: 35px;
+	font-size: 0;
+}
+
+.prev {
+	height: 35px;
+	width: 50px;
+	display: inline-block;
+	font-size: 15px;
+	border: 1px gray solid;
+	text-align: center;
+}
+
+.current {
+	height: 35px;
+	width: 150px;
+	display: inline-block;
+	font-size: 15px;
+	border: 1px gray solid;
+	text-align: center;
+}
+
+.next {
+	height: 35px;
+	width: 50px;
+	display: inline-block;
+	font-size: 15px;
+	border: 1px gray solid; 
+	text-align: center;
+}
+
+input[type=text] {
+	height: 30px;
+	width: 250px;
+}
+.search_mag {
+	width: 35px;
+	height: 35px;
+	border: 1px solid black;
+	vertical-align: bottom;
+	border-radius: 5px;
+}
+
+.results {
+	top: 100px;
+	margin-top: 50px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+.results span {
+	display: inline-block;
+	margin-right: 20px;
+	color: gray;
+}
+
+.date-or-town {
+	color: gray;
+}
+
+.results a {
+	display: inline-block;
+	margin-right: 20px;
+	color: blue;
+	font-weight: 900;
+	text-decoration: none;
+}
