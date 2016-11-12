@@ -18,20 +18,24 @@ header {
 	font-size: 20px;
 }
 
-header span {
+header h3 {
+	
 	display: inline-block;
-	vertical-align: middle;
+
 }
 
 nav {
+	display: inline-block;
 	position: absolute;
 	right: 100px;
-
+	height: 70px;
 }
 
 nav a {
 	color: purple;
 	display: inline-block;
+	text-align: right;
+	padding-top: 20px; 
 }
 
 nav a:link {
@@ -53,8 +57,10 @@ main {
 
 
 .navigation-container {
+	box-sizing: border-box;
 	margin-top: 35px;
 	font-size: 0;
+
 }
 
 .prev {
@@ -84,6 +90,11 @@ main {
 	text-align: center;
 }
 
+li.prev {
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
 input[type=text] {
 	height: 30px;
 	width: 250px;
@@ -91,7 +102,7 @@ input[type=text] {
 .search_mag {
 	width: 35px;
 	height: 35px;
-	border: 1px solid black;
+	border: 1px solid gray;
 	vertical-align: bottom;
 	border-radius: 5px;
 }
@@ -108,7 +119,7 @@ ul {
 }
 
 li {
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .results span {
